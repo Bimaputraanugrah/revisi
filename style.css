@@ -1,0 +1,114 @@
+* {margin: 0px; padding: 0px}
+@font-face {font-family: 'caroselo'; src: url('Carosello-Regular.ttf');}
+@font-face {font-family: 'avenir'; src: url('avenir.otf');}
+@font-face {font-family: 'avenir-bold'; src: url('avenir-bold.otf');}
+@font-face {font-family: 'regular'; src: url('OpenSans-Regular.ttf');}
+@font-face {font-family: 'serif'; src: url('PTserif.ttf');}
+@font-face {font-family: 'semibold'; src: url('OpenSans-Semibold.ttf');}
+.col-1 {width:8.33%}.col-2 {width:16.66%}.col-3 {width:25%}.col-4 {width:33.33%}.col-5 {width:41.66%}.col-6 {width:50%}.col-7 {width:58.33%}.col-8 {width:66.66%}.col-9 {width:75%}.col-10 {width:83.33%}.col-11 {width:91.66%}.col-12 {width:100%}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {float: left;}
+.clear {clear: both;}
+.wrapper {width: 70%; margin: 0 auto}
+.header {background-image: url('header.jpg');width: 100% ;height: auto; background-repeat: no-repeat; background-size: cover;}
+.kiri {float: left;}
+.kiri ul {list-style: none;}
+.kiri ul li {float: left; display: inline-block; padding: 55px 50px 0px 0px}
+.kiri ul li a {text-decoration: none; color: #fff;font-size: 16px; font-family: 'avenir'}
+.kiri ul li a:hover {opacity: 0.8; transition: opacity .3s ease	}
+.logo {float: left; text-align: center;}
+.logo a {text-decoration: none; color: #fff; font-family: 'caroselo'; display: inline-block; font-size: 28px; padding: 45px 0px 0px 114px;}
+.kanan {float: left;padding-left: 150px; display: inline-block;}
+.kanan ul {list-style: none; }
+.kanan ul li {float: left; display: inline-block; padding: 55px 0px 0px 50px}
+.kanan ul li a {text-decoration: none; color: #fff; font-size: 16px;font-family: 'avenir'}
+.kanan ul li a:hover {opacity: 0.8; transition: all .5s ease}
+.bann {display: block; padding-top: 170px}
+.bann .t1 {font-family: 'caroselo'; font-size: 48px; color: #fff; margin: 0 auto; text-align: center;}
+.bann .t2 {font-family: 'avenir-bold'; font-size: 62px; color: #fff;margin: 0 auto; text-align: center;}
+.bann .t3 {width: 50%;font-family: 'regular'; font-size: 20px; color: #fff;margin: 0 auto; text-align: center;}
+.start {padding-top: 130px; text-align: center; padding-bottom: 130px}
+.start a {text-decoration: none; font-family: 'regular'; color: #fff; padding: 10px 35px; border: solid 1px #fff; text-align: center;}
+.start a:hover {transition: all .5s ease; opacity: 0.6}
+
+.h2 {font-family: 'serif'; font-size: 24px; color: #7f7f7f; text-align: center; padding-top: 40px}
+.h1 {font-family: 'avenir-bold'; font-size: 48px; color: #000; text-align: center;}
+
+.place .image img{width: 90%; height: auto;}
+.place .image img{width: 90%; height: auto;}
+.place .desc p {font-size: 18px; font-family: 'regular'; width: 90%; padding-right: 30px; display: inline-block;}
+.place .desc1 p {font-size: 18px; font-family: 'regular'; width: 90%;right: 0px; float: right; display: inline-block;}
+.place {padding-top: 50px}
+.place .desc1 span {padding-left: 47px}
+.place .desc span {padding-right: 30px}
+.place .desc {text-align: right; }
+.place .image img {right: 0px; float: right;}
+.place .image1 {right: 0px; float: left}
+.place .desc1 span, .desc span {font-family: 'avenir-bold'; font-size: 24px; display: inline-block; padding-bottom: 20px}
+.place a {text-decoration: none; color: #000; font-family: 'regular'; font-size: 16px; padding: 5px 20px; border: solid 1px #000;}
+.place a:hover {transition: all .5s ease; opacity: 0.6}
+.place .btn {padding-top: 70px; padding-right: 30px}
+.place .btn1 {padding-top: 175px; padding-left: 47px}
+.gallery {padding-top: 50px;}
+.tittle {padding-bottom: 50px}
+.img {padding: 0px; margin: 0px; display: inline-block; position: relative;}
+.img .foto:after {background-color: rgba(8,20,54,0);}
+.img:hover > .foto:after {background-color: rgba(8,20,54,.5);}
+.img:hover > .hoving {opacity: 1;}
+.hoving {z-index:0; position: absolute; top: 50%; left: 50%; opacity: 0; box-sizing: border-box; transform: translate(-50%, -50%); background-color: rgba(8,20,54,.7); transition: all .5s ease; height: 100%; width: 100%}
+.hoving  {display: flex; margin: auto; text-align: center; align-items: center;	justify-content: center;}
+.foto {height: 270px;}
+.foto img { height: 270px; width: 100%; display: block;}
+.feat {box-sizing: content-box; box-sizing: border-box; padding: 20px; display: inline-block;}
+.feat .image {height: 290px; width: 290px}
+.feat .image img {width: 100%; height: auto;}
+.feat .desc {text-align: center; padding-top: 25px}
+.feat .desc p {font-family: 'regular'; font-size: 18px; padding-bottom: 25px}
+.feat .desc a {text-decoration: none; color: #000; font-family: 'regular'; font-size: 16px; padding: 5px 15px; border: solid 1px #000;}
+
+.reviews {background-image: url('reviews.jpg');width: 100% ;height: 100vh; background-repeat: no-repeat; background-size: cover; margin-top: 50px}
+.reviews .tittle {padding-top: 120px}
+.reviews .tittle .h2 {color: #cad6e5}
+.reviews .tittle .h1 {color: #fff}
+.rev .ha p {color: #fff; font-size: 30px; font-family: 'semibold'}
+.rev .is nav {width: 3px; height: 80px; background-color: #fff; float: left; display: inline-block; margin-top: 5px}
+.rev .is {padding-top: 25px}
+.rev .is p {font-family: 'regular'; color: #fff; font-size: 16px; padding: 0px 20px}
+.rev .im {padding-top: 30px}
+.rev .im .img {height: 80px; width: 80px; float: left;}
+.rev .im .img img {width: 100%}
+.rev .im .name {float: left; display:inline-block; padding-left: 25px; padding-top: 20px}
+.rev .im .name a {text-decoration: none; color: #fff; font-family: 'semibold'; font-size: 24px;}
+.rev .im .name a:hover {transition: all .5s ease; opacity: 0.8}
+.container {width: 80%; margin: 0 auto}
+.colom {background-color: #fff; box-sizing: content-box; box-sizing: border-box; padding: 10px; height: 350px}
+.shadow {background-color: #fff; height: 340px}
+.shadow:hover {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); transition: all 1s ease}
+.atas .c1 {font-family: 'caroselo'; font-size: 24px}
+.atas .c2 {font-family: 'avenir-bold'; font-size: 40px}
+.tengah p {font-family: 'regular'; font-size: 16px}
+.bawah p {font-family: 'regular'; font-size: 16px}
+.atas nav{float: left; padding-top: 3px; padding-right: 10px}
+.atas {padding-top: 50px}
+.atas .head {float: left;}
+.tengah {float: left;padding-top: 20px}
+.bawah {float: left;padding-top: 20px; padding-bottom: 50px}
+
+.form form input , .form form textarea {border-radius: 0px; border:none; border-bottom: solid 1px #ccc; line-height: 20px; margin-top: 25px; font-family: 'regular'; padding-bottom:10px; width: 100%; font-size: 14px}
+.form form input:focus , .form form textarea:focus {border: none; border-bottom: solid 1px #36a0e3; outline: none;}
+.msg {padding-top: 50px}
+.msg .head p {font-family: 'avenir-bold'; font-size: 24px}
+.msg .head {float: left;}
+.msg nav {float: left; padding-top: 3px; padding-right: 10px}
+.link {padding-top: 50px}
+.link .head p {font-family: 'avenir-bold'; font-size: 24px}
+.link .head {float: left;}
+.link nav {float: left; padding-top: 3px; padding-right: 10px}
+.socmed {float: left; padding-top: 20px}
+.socmed .sc {float: left; padding-top: 15px; display: block; width: 100%;opacity: 0.7}
+.socmed .sc nav {float: left;}
+.socmed .sc img {height: 20px; width: 20px}
+.socmed .sc nav a {text-decoration: none; font-size: 16px;font-family: 'regular'; padding-left: 10px; color: #000; display: inline-block; padding-top: 0px}
+.socmed .sc:hover {opacity: 1; transition: all .5s ease;}
+.footer {padding-top: 50px}
+.footer .line {height: 1px; width: 100%; background-color: #b7b7b7}
+.footer .text p {font-family: 'regular'; font-size: 14px; color: #b7b7b7; text-align: center; padding: 25px}
